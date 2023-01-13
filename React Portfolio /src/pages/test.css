@@ -1,0 +1,25 @@
+.test{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10vh;
+}
+.test__line{
+    margin:10px 10%;
+    width: 20vw;
+}
+.test__des{
+    width: 50vw;
+    margin-bottom: 30px;
+}
+.test__top{
+    width: 85vw;
+    margin: 0 auto;
+}
+.test__cards{
+    width: 80vw;
+    margin: 90px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+
+}

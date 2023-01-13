@@ -1,0 +1,51 @@
+.contact{
+    padding-top: 7%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+.contact__img{
+    width: 320px;
+    height: 220px;
+    margin-top: 7%;
+}
+.in{
+    background-color: rgba(40,190,230,255);
+    font-weight: bold;
+    width: 38vw;
+    padding:8px 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact__h1{
+    color: rgba(250,205,71,255);
+}
+.contact__btn{
+    background-color: rgba(250,205,71,255);
+    width: max-content;
+    padding: 15px 7px;
+    font-weight: bold;
+}
+.contact__titles{
+    display: flex;
+    align-items: center;
+}
+.contact__text{
+    display: flex;
+    gap:11px;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.contact__line{
+    align-self: flex-end;
+    width: 15vw;
+}
+.area{
+    resize: none;
+    padding-top: 15px;
+}

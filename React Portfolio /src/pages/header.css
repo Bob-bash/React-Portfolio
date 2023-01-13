@@ -1,0 +1,50 @@
+.header{
+    width: 100vw;
+    padding: 17px 0;
+    position: fixed;
+    z-index: 1000;
+    left: 0px;
+    top: 0px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, .25);
+    transition: background-color .5s linear;
+}
+.headerw{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.header__links{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.link:hover{
+    color: rgba(169,154,112,55) !important;
+}
+.loader{
+    width: 4px;
+    height: 18px;
+    background: linear-gradient(45deg,yellow,blue);
+}
+.repeat{
+    animation: repeat 2s linear 0s infinite forwards;
+    animation-direction:alternate;
+}
+@keyframes repeat {
+    0%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(15px);
+    }
+}

@@ -1,0 +1,31 @@
+.testcard{
+    height: 27vw;
+    position: relative;
+    max-width: 240px;
+    max-height: 260px;
+    min-height:140px ;
+    min-width: 160px;
+}
+.testcard__img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    width: 50%;
+    height: 14vw;
+    max-height: 140px;
+    min-height: 87px;
+}
+.testcard__con{
+    height: 100%;
+    padding: 40% 25px;
+    width: 100%;
+}
+.testcard__bold{
+    font-size: 35px;
+}
+.testcard__des{
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+.indicator{
+    height: 5px;
+    position: fixed;
+    left: 0px;
+    z-index: 100000;
+    top: 59px;
+    width: 0px;
+    background: linear-gradient(45deg,rgba(40,190,230,255) 30%,rgba(251,205,69,255));
+    border-radius: 1000px;
+}
